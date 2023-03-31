@@ -1,0 +1,26 @@
+GET http://localhost:3000/users/findAll
+###
+
+Post http://localhost:3000/auth/signup
+Content-Type: application/json
+
+{
+  "email": "test@test.com",
+  "userName": "peter",
+  "password": "qwer"
+}
+
+###
+
+Post http://localhost:3000/auth/signout
+
+###
+
+Post http://localhost:3000/auth/signin
+Content-Type: application/json
+
+{
+  "email": "test@test.com",
+  "userName": "peter",
+  "password": "qwer"
+}
