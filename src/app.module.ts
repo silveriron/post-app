@@ -6,7 +6,6 @@ import { AuthModule } from './auth/auth.module';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { Users } from './users/users.entity';
 import { APP_PIPE } from '@nestjs/core';
-import cookieParser from 'cookie-parser';
 // eslint-disable-next-line @typescript-eslint/no-var-requires
 const cookieSession = require('cookie-session');
 
